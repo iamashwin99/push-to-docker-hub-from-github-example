@@ -12,4 +12,4 @@ build-ubuntu:
 
 push:
 	docker tag push-to-docker-hub-example:latest iamashwin99/push-to-docker-hub-example:latest
-	docker push iamashwin99/push-to-docker-hub-example:latest
+	docker push docker.io/iamashwin99/push-to-docker-hub-example:latest
