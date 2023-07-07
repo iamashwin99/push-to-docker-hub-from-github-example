@@ -9,3 +9,7 @@ build-arm:
 
 build-ubuntu:
 	docker build -t push-to-docker-hub-example --platform linux/amd64 .
+
+push:
+	docker tag push-to-docker-hub-example:latest iamashwin99/push-to-docker-hub-example:latest
+	docker push iamashwin99/push-to-docker-hub-example:latest
